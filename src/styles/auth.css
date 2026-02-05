@@ -1,0 +1,15 @@
+.auth-bg {
+  background: linear-gradient(
+    135deg,
+    #1A191A 20%,     
+    #DC1FFF 100%      
+  );
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #7c3aed, #6d28d9);
+}
+
+.bn-sign{
+  background-color: #7130F0;
+}

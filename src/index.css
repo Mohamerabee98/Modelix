@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body{
+  /* margin: 0; */
+  font-family: 'Arial', sans-serif;
+  backdrop-filter: blur(109.80000305175781px);
+
+
+ background: linear-gradient(69.56deg, rgba(220, 31, 255, 0.74) -17.62%, rgba(113, 48, 240, 0.74) 87.77%);
+}
+html {
+  scroll-behavior: smooth;
+}

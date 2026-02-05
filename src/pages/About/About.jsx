@@ -1,0 +1,64 @@
+import AboutImg from "../../assets/About.png";
+import "./About.css";
+export default function About() {
+  return (
+    <section
+      id="About"
+      className="w-full  py-20 px-6 bg-gradient-to-b from-purple-900 via-purple-800 to-purple-700"
+    >
+      <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
+        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+          About Modelix
+        </h2>
+        <p className="text-white/80 text-lg sm:text-xl mb-10">
+          The simple no-code platform for training Machine Learning models.
+        </p>
+        <div className="w-full flex flex-col  lg:flex-row gap-8 justify-center items-start relative">
+          <div className="flex-1 flex flex-col gap-6 relative">
+            {/* Simple Overview */}
+            <div className="border border-white/40 rounded-4xl p-6 relative z-10">
+              <span className="bg-purple-500 text-white px-3 py-1 rounded text-lg font-semibold mb-3 inline-block">
+                Simple Overview
+              </span>
+              <p className="text-white text-xl leading-[30px]">
+                Modelix is a web platform that allows anyone — even without
+                programming experience — to build, train, and use Machine
+                Learning regression models. With an intuitive interface, users
+                can upload their dataset, train different ML models, and
+                generate predictions instantly.
+              </p>
+            </div>
+
+            {/* Image under Simple Overview */}
+            <div className="w-75 hidden lg:block   max-w-md mx-20">
+              <img
+                src={AboutImg}
+                alt="About Illustration"
+                className="w-full object-contain"
+              />
+            </div>
+          </div>
+
+        
+          
+          <div
+            className="flex-1 border border-white/40 bg-white/10 backdrop-blur-xl rounded-4xl p-6 static lg:relative lg:top-0 lg:right-0 lg:translate-y-0 z-20"
+            style={{ top: "230px", right: "150px" }}>
+            <span className="bg-purple-500 text-white px-3 py-1 rounded text-lg font-semibold mb-3 inline-block">
+              Mission
+            </span>
+            <p className="text-white text-xl leading-[30px]">
+              Our mission is to make Machine Learning easy, accessible, and
+              practical for everyone. Whether you're a student, data analyst, or
+              business owner, Modelix helps you transform raw data into accurate
+              predictions without writing a single line of code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+

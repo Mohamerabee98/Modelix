@@ -1,0 +1,15 @@
+.form{
+   background: linear-gradient(0deg, rgba(113, 48, 240, 0.29) 0%, rgba(220, 31, 255, 0.29) 100%);
+
+
+}
+
+
+.form-pre input , select , .garage{
+    background: rgb(50, 32, 79 , 0.5);
+
+}
+.btn-pre{
+    background: #7130F0;
+
+}

@@ -1,0 +1,16 @@
+
+.title{
+    font-size: 65px;
+}
+.sub-title{
+    font-size: 20px;
+}
+
+.button-gradient {
+  background: linear-gradient(0deg, #7537f0, #7130F0);
+}
+
+.Arrow{
+    background: #D9D9D9;
+    color: #7130F0;
+}
