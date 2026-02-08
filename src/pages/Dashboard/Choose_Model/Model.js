@@ -26,4 +26,22 @@ export const  models = [
       "Great for large datasets",
     ],
   },
+  {
+    title: "Support Vector Machine",
+    desc: "Effective For medium-sized regression tasks ",
+    points: [
+      "Works With kernels",
+      "Good margin optimization",
+      "Stable performance",
+    ],
+  },
+  {
+    title: "Linear Regression",
+    desc: "A simple model For continuos values . Fast and interpretable",
+    points: [
+      "Best for numeric features",
+      "Very fast training ",
+      "Easy to interpret",
+    ],
+  },
 ];
